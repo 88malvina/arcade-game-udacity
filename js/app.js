@@ -65,10 +65,10 @@ class Player {
 	}
 	update(dt){//player cannot move off screen
 		if(this.x >450) {
-			this.x = 450;
+			this.x = 200;
 		}
 		if(this.x < 0) {
-			this.x = 0;
+			this.x = 200;
 		}
 		if(this.y >400) {
 			this.y = 400;
