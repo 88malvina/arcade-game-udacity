@@ -1,3 +1,4 @@
+"use strict";
 var button = document.getElementById('button');
 var heart = document.getElementsByTagName('img');
 // Enemies our player must avoid
